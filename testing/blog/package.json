@@ -5,6 +5,8 @@
   "hexo": {
     "version": "3.9.0"
   },
+  "author": "Ces",
+  "license": "All Rights Reserved",
   "scripts": {
     "start": "node index.js"
   },
