@@ -1,0 +1,76 @@
+# config
+cover: /img/bg_img.jpg
+logo: /img/logo.png
+bottom_saying: “My opinions may have changed, but not the fact that I’m right.”
+# Content
+excerpt_link: Continue Reading
+
+highlightjs: vs
+
+#Works
+# works:
+# - works_name: AAA
+#   works_url: /
+# - works_name: BBB
+#   works_url: /atom.xml
+
+#duoshuo name
+duoshuo:
+
+#disqus name
+disqus_shortname:
+
+#fancybox
+fancybox: false
+
+# Miscellaneous
+github: https://github.com/
+twitter: https://twitter.com/
+facebook: https://www.facebook.com/
+
+#about  timeline
+timeline:
+- num: 1
+  word: 1995 - I was born
+- num: 2
+  word: 2013 - I graduated HS
+- num: 3
+  word: 2019 - i left to SF
+- num: 4
+  word: I'm bad af
+
+#Links
+links:
+# - name: Name
+#   link: http://domain.com/
+
+# Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
+local_search:
+  enable: false
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 2
+
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY/MM/DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: first-test
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html

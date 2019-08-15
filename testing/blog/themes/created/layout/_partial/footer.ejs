@@ -1,0 +1,23 @@
+
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container mobile-footer">
+        <div class="row">
+            <div class="col-md-6 copy">
+                <p>
+                    &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Content By <%- config.author %>.
+                </p>
+            </div>
+            <div class="col-md-6 social">
+                <ul>
+                    <% if(theme.twitter){ %>
+                    <li style="list-style-type: none;float:right;"><a href="<%- theme.twitter %>" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->

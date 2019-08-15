@@ -7,7 +7,7 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Ces
 language: en
 timezone:
 
@@ -73,11 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: created
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: heroku
-  repo: git@heroku.com:jefficue.git
-  message: Deployment of Hexo to heroku.
+# deploy:
+#   type: heroku
+#   repo: git@heroku.com:jefficue.git
+#   message: Deployment of Hexo to heroku.

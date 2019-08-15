@@ -1,0 +1,22 @@
+<% permalink = config.url + config.root + post.path %>
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col--md-12">
+                <img class="square-pix-img square-pix-img-even post-index-image" src="<%- post.post_image %>" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+    			<%- partial('post/meta') %>
+                <h1><%- post.title %></h1>
+            </div>
+        </div>
+        <div class="col-md-12">
+      		<%- post.content %>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <%- partial('post/navigation') %>
+    </div>
+</section>
